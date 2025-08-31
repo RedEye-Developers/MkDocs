@@ -1,0 +1,49 @@
+site_name: RedEye Developers Docs
+theme:
+  name: material
+  icon:
+    logo: material/code-json
+  palette: 
+      # Palette toggle for dark mode
+      - scheme: slate
+        primary: red
+        accent: red
+        toggle:
+          icon: material/weather-night
+          name: Switch to light mode
+
+      # Palette toggle for light mode
+      - scheme: default
+        primary: red
+        accent: red
+        toggle:
+          icon: material/brightness-7 
+          name: Switch to dark mode
+  features:
+      - content.code.copy
+      - navigation.footer
+nav:
+  - index.md
+  - .NET:
+    - Install Dotnet On Linux:
+      - Install: dotnet/install-dotnet-on-linux/install.md 
+      - Set Dotnet Tool Env Path: dotnet/install-dotnet-on-linux/set-dotnet-tool-env-path.md 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - admonition
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RedEye-Developers
+
+copyright: Copyright &copy; RedEye Developers      
+  
