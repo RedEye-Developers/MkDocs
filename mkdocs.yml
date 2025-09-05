@@ -28,6 +28,7 @@ nav:
     - Install Dotnet On Linux:
       - Install: dotnet/install-dotnet-on-linux/install.md 
       - Set Dotnet Tool Env Path: dotnet/install-dotnet-on-linux/set-dotnet-tool-env-path.md 
+  - Grpcurl: grpcurl/grpcurl.md
 
 markdown_extensions:
   - pymdownx.highlight:
