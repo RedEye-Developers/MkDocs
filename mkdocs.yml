@@ -29,6 +29,12 @@ nav:
       - Install: dotnet/install-dotnet-on-linux/install.md 
       - Set Dotnet Tool Env Path: dotnet/install-dotnet-on-linux/set-dotnet-tool-env-path.md 
   - Grpcurl: grpcurl/grpcurl.md
+  - AWS:
+    - MSK:
+      - setup-cp-schema-registry: aws/msk/setup-cp-schema-registry.md
+    - EKS:
+      - setup-karpenter: aws/eks/setup-karpenter.md
+        
 
 markdown_extensions:
   - pymdownx.highlight:
