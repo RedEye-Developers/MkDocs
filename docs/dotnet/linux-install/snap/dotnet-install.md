@@ -14,7 +14,7 @@ $ sudo snap install dotnet --classic
 ### 2. Install .NET 9 SDK :
 ---
 
-This Will Install Both Sdk and Runtime.
+This Will Install Dotnet-Sdk, Dotnet-Runtime and AspNetCore-Runtime.
 ``` bash
 $ dotnet-installer install sdk 9.0
 ```

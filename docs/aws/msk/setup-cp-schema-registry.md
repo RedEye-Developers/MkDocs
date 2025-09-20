@@ -51,8 +51,9 @@ services:
       SR_KAFKASTORE_TOPIC_SERVERS: SASL_SSL://<BOOTSTRAP_SERVERS_HOST>:<PORT>
       SCHEMA_REGISTRY_LOG4J_LOGGERS: "org.apache.kafka=ERROR,io.confluent.rest.exceptions=FATAL"
       SCHEMA_REGISTRY_LOG4J_ROOT_LOGLEVEL: DEBUG
-      AWS_ACCESS_KEY: "<Enter Key>"
-      AWS_SECRET_KEY: "<Enter Key>"
+      AWS_ACCESS_KEY_ID: "<Enter Key>"
+      AWS_SECRET_ACCESS_KEY: "<Enter Key>"
+	  AWS_REGION: "<Enter MSK Region>"
 ```
 
 **For More Details Checkout this Post :** [***Link***](https://medium.com/@anantadurgaprasadar/aws-msk-with-kafka-connect-and-schema-registry-43e86d6bfb3c)
