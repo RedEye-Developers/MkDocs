@@ -25,9 +25,13 @@ theme:
 nav:
   - index.md
   - .NET:
-    - Install Dotnet On Linux:
-      - Install: dotnet/install-dotnet-on-linux/install.md 
-      - Set Dotnet Tool Env Path: dotnet/install-dotnet-on-linux/set-dotnet-tool-env-path.md 
+    - Dotnet Linux Install:
+      - Install Using All in One Pack:
+        - Dotnet-Install: dotnet/linux-install/all-in-one-pack/dotnet-install.md 
+        - Dotnet-Tools-Install: dotnet/linux-install/all-in-one-pack/dotnet-tools-install.md
+      - Install Using Snap:
+        - Dotnet-Install: dotnet/linux-install/snap/dotnet-install.md
+        - Dotnet-Tools-Install: dotnet/linux-install/snap/dotnet-tools-install.md
   - Grpcurl: grpcurl/grpcurl.md
   - AWS:
     - MSK:
