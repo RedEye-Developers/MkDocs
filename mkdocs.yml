@@ -38,6 +38,8 @@ nav:
       - setup-cp-schema-registry: aws/msk/setup-cp-schema-registry.md
     - EKS:
       - setup-karpenter: aws/eks/setup-karpenter.md
+  - K8s:
+    - Debug-Commands: k8s/debug-commands.md
         
 
 markdown_extensions:
