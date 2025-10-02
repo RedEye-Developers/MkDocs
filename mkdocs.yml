@@ -32,15 +32,21 @@ nav:
       - Install Using Snap:
         - Dotnet-Install: dotnet/linux-install/snap/dotnet-install.md
         - Dotnet-Tools-Install: dotnet/linux-install/snap/dotnet-tools-install.md
+    - AWS:
+      - MSK:
+          - Setup-Producer: dotnet/aws/msk/setup-producer.md
+          - Setup-Consumer: dotnet/aws/msk/setup-consumer.md
   - Grpcurl: grpcurl/grpcurl.md
   - AWS:
     - MSK:
       - setup-cp-schema-registry: aws/msk/setup-cp-schema-registry.md
     - EKS:
       - setup-karpenter: aws/eks/setup-karpenter.md
-  - K8s:
+  - K8S:
     - Debug-Commands: k8s/debug-commands.md
-        
+  - Grafana:
+    - K8S:
+      - setup-k8s-monitoring: grafana/k8s/k8s-monitoring/setup-k8s-monitoring.md
 
 markdown_extensions:
   - pymdownx.highlight:
